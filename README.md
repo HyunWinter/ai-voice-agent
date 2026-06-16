@@ -2,7 +2,7 @@
 
 Bridges inbound phone calls to the OpenAI Realtime API via Twilio SIP. You call a number, an AI picks up and talks to you. This server never touches audio. It only manages the control plane (accepting calls, configuring the AI session, handling tool calls, silence detection).
 
-Extracted from a larger production project. Multi-tenant routing, CMS integration, and signature verification have been stripped out to keep this focused on the core integration.
+Extracted from one of my larger side project. Multi-tenant routing, CMS integration, and signature verification have been stripped out to keep this focused on the core integration.
 
 ## How it works
 
